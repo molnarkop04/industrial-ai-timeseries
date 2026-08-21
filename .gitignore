@@ -218,10 +218,13 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+# Project data
+projects/*/data/raw/*
+projects/*/data/processed/*
+
+# Keep empty data directories in Git
+!projects/*/data/raw/.gitkeep
+!projects/*/data/processed/.gitkeep
 
 # macOS metadata
 .DS_Store
