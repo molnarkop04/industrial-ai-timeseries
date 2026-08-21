@@ -222,6 +222,9 @@ __marimo__/
 projects/*/data/raw/*
 projects/*/data/processed/*
 
+# Downloaded laser welding dataset
+projects/laser_welding_quality/data/Dataset/
+
 # Keep empty data directories in Git
 !projects/*/data/raw/.gitkeep
 !projects/*/data/processed/.gitkeep
